@@ -18,7 +18,7 @@
         "basicSearchSpec": {
             "searchType": "ALL_PRODUCTS",
             "entityId": null,
-            "searchQuery": "snowbay"
+            "searchQuery": ""
         },
         "rowsToReturn": 50,
         "skip": 0

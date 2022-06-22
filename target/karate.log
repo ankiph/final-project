@@ -1898,3 +1898,1267 @@
 }
 
 13:56:27.675 [Test worker] INFO  com.intuit.karate - [print] created id is:  11 
+17:52:11.512 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:52:11.516 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1655808731515
+17:52:12.802 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:52:13.203 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:52:13.829 [main] DEBUG com.intuit.karate - response time in milliseconds: 615
+1 < 200
+1 < Date: Tue, 21 Jun 2022 10:52:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1648500853
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 13663
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yAnMU4ZrHFcBtXylTa3icg3efDFEr4Gb0Nvi58ci0dA41DaX%2FqYPQ3Xkr9HbN1vFhExdUG6UxYMW3cTC3xF0t0mM5tICgsIFpePeGGheFJpHmy4t%2F3nCz311I3jHAsiufSPs6A0DbI8X%2FF3I1YU4"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 71ec318a9f9a5659-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+17:52:14.014 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+2 > Accept-Encoding: gzip,deflate
+
+
+17:52:14.215 [main] DEBUG com.intuit.karate - response time in milliseconds: 199
+2 < 200
+2 < Date: Tue, 21 Jun 2022 10:52:14 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1655390124
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 27342
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BT5CJrbY%2Bq20i2AyF0hGCMWFgcCec%2BrGxzUnFdbQdTbxNP%2BRTFRaFKPnxJImfEtS5xl6IiNmntigaIxxhfiiVAhwWumbSWCPRV4oxBsmzc8fAiQags3LHsxMVesTR3pkca0Nyvr30eFYHIHpaEcL"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 71ec318d1a174d33-SIN
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+17:52:14.241 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:52:14.319 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+17:52:15.029 [main] DEBUG com.intuit.karate - response time in milliseconds: 709
+1 < 201
+1 < Date: Tue, 21 Jun 2022 10:52:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1655808746
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0te7I9TwyALxyqhMqkaWLCiPg0L2a7AIFYvKmGNH4jqnr%2B87Ct88Lo%2FBx9VA9PPBf68ypumoggceHHhFEoqHOlawiDF8jHmgucQjt%2FkbSz%2FB8a0p0NuNpybxrImi0uuyNDTka4DrFkrkRsJBGjmP"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 71ec318ec96eab49-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+17:52:15.044 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:52:17.672 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:15:53.265 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:15:53.271 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1655874953270
+12:15:54.519 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:15:54.938 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:15:55.698 [main] DEBUG com.intuit.karate - response time in milliseconds: 754
+1 < 200
+1 < Date: Wed, 22 Jun 2022 05:15:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1648500853
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 22263
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jOK3jpPfybQeIoTk9oYOsIawawDWpsgdVfT%2BkORJW%2F2km93moa8lMhI8cgU4FFTZgUNFwB0T%2F5S%2FPOUBvZVlF%2BzvKUNCaDIuytmKOk2U6Jq19WZeAPhBJqCDDhzKAKD7qbYSoS7ZdJX%2FrM5REsnG"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 71f28248fb2b5683-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+12:15:55.878 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:15:56.186 [main] DEBUG com.intuit.karate - response time in milliseconds: 306
+2 < 200
+2 < Date: Wed, 22 Jun 2022 05:15:56 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1655390124
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 5239
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dbdNVp3Hl0l5Kj1QqQSY4WsnQk92hGLUa%2Fq1p5CJX1RcfeS7uHTL0sZ%2FO7vxvSxLc2YsYfPoq48TkIze35oKSP9c%2Fq%2BoVnY3XFPw39ESMvJ2lkjgU7aEOTKLei0u1q41NGlyEejhkFPesZxKAsOn"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 71f2824bffbf896b-SIN
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+12:15:56.214 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:15:56.290 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+12:15:57.240 [main] DEBUG com.intuit.karate - response time in milliseconds: 950
+1 < 201
+1 < Date: Wed, 22 Jun 2022 05:15:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1655875008
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4afWN4xOLqAgfXS4NRcb%2FVuqdgosIMLDiIzwTTd6f0DF6X%2Fw%2BbeYmUcZlFwGMIJ71x7RrhGJ%2BufMPlVES3XAzXgtgqqZFPkTQG7yr5XYt6fR4D1W24xY0FSHo%2BeaYQR2sHXIYR1UqykNaLA%2Ft4B5"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 71f2824de94089b6-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+12:15:57.247 [main] INFO  com.intuit.karate - [print] created id is:  11 
+12:15:59.372 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/examples/users/users.feature
+12:20:22.998 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:20:23.005 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1655875223004
+12:20:24.291 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:20:24.824 [main] DEBUG com.intuit.karate - request:
+1 > POST https://xpepapi.xpe.staging-traveloka.com/en-id/v2/experience/searchModal
+1 > Origin: https://www-rc.web.tvlk.dev
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 944
+1 > Host: xpepapi.xpe.staging-traveloka.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 > Accept-Encoding: gzip,deflate
+{"clientInterface":"desktop","data":{"pageName":"landing_page","trackingProperties":{"visitId":"c7f192a1-2a5c-4dac-9521-5e26cced1f27","eventSeq":573,"eventKey":"c7f192a1-2a5c-4dac-9521-5e26cced1f27.573","funnel_source":"Merchandising.AA.product_detail-mweb-ID-LandingPage","funnel_id":"S_0_b97b4c08a1598e2af334634320040db1b4ccb75a_0_c672458068bfe92ac0e9d1ef455953b8b96f944c"}},"fields":[],"context":{"tvLifetime":"BL6QzgFU8OcVMipoEyq+BM+Tg\/Hk3azKGSOBWnB1aV4HUhJKz+1BoXpjQ8ko3dXyYPKvEwEP9rvkYs43qtg47nJfH0QYsPTDkK3hoMuN0XU0WqnHcJ0HGRvkXJ9i8MGkXyMrsrmRGM8Mh7BjP2nEzGuJlTPIoD9abqH+9elXCiSimeEgHbKEnh6iWvISVEigkFCHGmtgQIBYvXr\/N2qZSHDjN\/pkhAH2gwxqzA5sn7GiAFSBkESSumIKzae1rc17","tvSession":"qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY\/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd\/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C\/lixSwG1Nh0MWwhZ6mGKTEgkS\/Mj0AFxTzE=","nonce":""}}
+
+12:20:55.895 [main] DEBUG com.intuit.karate - response time in milliseconds: 31056
+1 < 200
+1 < Date: Wed, 22 Jun 2022 05:20:55 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < RequestId: 3c1af6fe-52de-4b33-8acc-a922b9bc8060
+1 < Cache-Control: no-cache
+1 < Access-Control-Allow-Origin: https://www-rc.web.tvlk.dev
+1 < Access-Control-Allow-Credentials: true
+1 < vary: accept-encoding
+1 < Set-Cookie: AWSALB=gxWtFvxgSUyObPIj90C/QspYl0iKrlw7O9XFLGYhCB85INkl3eSl1cyQVKv5z/1wSRK8sBynLUnIZA7kDG71FUqUOUpOR0LqL/VTsL0iG1gMYLmTOoMHLKh2s8WG; Max-Age=1656480055000; Expires=Wed, 28 Mar 54514 01:57:35 GMT; Domain=xpepapi.xpe.staging-traveloka.com
+1 < Set-Cookie: AWSALBCORS=gxWtFvxgSUyObPIj90C/QspYl0iKrlw7O9XFLGYhCB85INkl3eSl1cyQVKv5z/1wSRK8sBynLUnIZA7kDG71FUqUOUpOR0LqL/VTsL0iG1gMYLmTOoMHLKh2s8WG; Max-Age=1656480055000; Expires=Wed, 28 Mar 54514 01:57:35 GMT; Domain=xpepapi.xpe.staging-traveloka.com; Secure
+{"data":{"searchId":"68EPF03KC","groups":[{"type":"CATEGORY","categoryGroup":{"groupLabel":"Explore Categories","items":[{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868194484-14916f982420c96ae4ece559128baead.png","description":"Beauty & Spa","hexColorCode":"","detailText":null},"link":{"type":"SEARCH_RESULT","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"102813","geoLocation":null,"searchQuery":null,"filter":{"typeFilter":"BEAUTY_AND_SPA","typeFilterList":null,"subTypeFilter":[],"priceFilter":{"minPrice":"0","maxPrice":"10000000"},"durationFilter":null,"instantVoucherOnly":null,"geoIdsFilter":null,"tagFilter":null,"availabilityFilter":null,"featureFilter":null,"menuGroupingFilter":null,"promoFilterList":null}},"countryNameEN":null,"itemNameEN":null},"itemType":null},{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868191395-c8105b0407cca25542e4763f41aa52f5.png","description":"Attractions","hexColorCode":"","detailText":null},"link":{"type":"SEARCH_RESULT","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"102813","geoLocation":null,"searchQuery":null,"filter":{"typeFilter":"ATTRACTION","typeFilterList":null,"subTypeFilter":[],"priceFilter":{"minPrice":"0","maxPrice":"10000000"},"durationFilter":null,"instantVoucherOnly":null,"geoIdsFilter":null,"tagFilter":null,"availabilityFilter":null,"featureFilter":null,"menuGroupingFilter":null,"promoFilterList":null}},"countryNameEN":null,"itemNameEN":null},"itemType":null},{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868279024-7030b9d084b641872502d1c1e27831ba.png","description":"Events","hexColorCode":"","detailText":null},"link":{"type":"SEARCH_RESULT","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"102813","geoLocation":null,"searchQuery":null,"filter":{"typeFilter":"EVENT","typeFilterList":null,"subTypeFilter":[],"priceFilter":{"minPrice":"0","maxPrice":"10000000"},"durationFilter":null,"instantVoucherOnly":null,"geoIdsFilter":null,"tagFilter":null,"availabilityFilter":null,"featureFilter":null,"menuGroupingFilter":null,"promoFilterList":null}},"countryNameEN":null,"itemNameEN":null},"itemType":null},{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868273547-8ea59ecbcef04113ea3fa22c04630ec6.png","description":"Tours","hexColorCode":"","detailText":null},"link":{"type":"SEARCH_RESULT","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"102813","geoLocation":null,"searchQuery":null,"filter":{"typeFilter":"DAY_TOUR","typeFilterList":null,"subTypeFilter":[],"priceFilter":{"minPrice":"0","maxPrice":"10000000"},"durationFilter":null,"instantVoucherOnly":null,"geoIdsFilter":null,"tagFilter":null,"availabilityFilter":null,"featureFilter":null,"menuGroupingFilter":null,"promoFilterList":null}},"countryNameEN":null,"itemNameEN":null},"itemType":null},{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868335584-a3640c46347e7776d0b97d75b0aa3afa.png","description":"Entertainment","hexColorCode":"","detailText":null},"link":{"type":"SEARCH_RESULT","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"102813","geoLocation":null,"searchQuery":null,"filter":{"typeFilter":"ENTERTAINMENT","typeFilterList":null,"subTypeFilter":[],"priceFilter":{"minPrice":"0","maxPrice":"10000000"},"durationFilter":null,"instantVoucherOnly":null,"geoIdsFilter":null,"tagFilter":null,"availabilityFilter":null,"featureFilter":null,"menuGroupingFilter":null,"promoFilterList":null}},"countryNameEN":null,"itemNameEN":null},"itemType":null},{"iconWithText":{"iconUrl":"","description":"Sports","hexColorCode":"","detailText":null},"link":{"type":"SEARCH_RESULT","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"102813","geoLocation":null,"searchQuery":null,"filter":{"typeFilter":"SPORTS","typeFilterList":null,"subTypeFilter":[],"priceFilter":{"minPrice":"0","maxPrice":"10000000"},"durationFilter":null,"instantVoucherOnly":null,"geoIdsFilter":null,"tagFilter":null,"availabilityFilter":null,"featureFilter":null,"menuGroupingFilter":null,"promoFilterList":null}},"countryNameEN":null,"itemNameEN":null},"itemType":null}]},"destinationGroup":null,"trendingGroup":null},{"type":"DESTINATION","categoryGroup":null,"destinationGroup":{"groupLabel":"Explore Popular Destinations","items":[{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1530001048863-2000x1210-FIT_AND_TRIM-c2a054312648531b24dbf54d1dc72cfa.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit","description":"Hong Kong","hexColorCode":"","detailText":null},"link":{"type":"DESTINATION_PAGE","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"10011651","geoLocation":null,"searchQuery":null,"filter":null},"countryNameEN":"Indonesia","itemNameEN":"Hong Kong"},"itemType":"GEO_REGION"},{"iconWithText":{"iconUrl":"https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1506917344554-1200x600-FIT_AND_TRIM-2c2be77679906dc3d0f500f042060cca.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit","description":"Malaysia","hexColorCode":"","detailText":null},"link":{"type":"DESTINATION_PAGE","experienceId":null,"searchSpec":{"searchType":"GEO","entityId":"108416","geoLocation":null,"searchQuery":null,"filter":null},"countryNameEN":"Indonesia","itemNameEN":"Malaysia"},"itemType":"GEO_COUNTRY"}]},"trendingGroup":null}]},"userContext":null,"context":{"tvLifetime":"ZQQI3KuS9VEC4Q8YrwD4mF8f/x26cw3LwSPmkzlcJz+9p6QJFboGg9o/VJnu0KZUzjtPFQ++GTw4NvoelQ82jq0pt5i4V/l+cmuhXTEqCStTWn7GnXQzivKWDaFh24+qO0xltLdMrFhtrNos1/RXuMt3Qe6Hr4xZ7LSR/A5tvYLvlyHfFnPptZUxAgMVwRNSCMYWUJplNNMY2P4/83O9X+8GNrPf8Ng75ZieUaJama8=","tvSession":"qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=","nonce":""}}
+
+12:20:55.914 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "searchId": "68EPF03KC",
+    "groups": [
+      {
+        "type": "CATEGORY",
+        "categoryGroup": {
+          "groupLabel": "Explore Categories",
+          "items": [
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868194484-14916f982420c96ae4ece559128baead.png",
+                "description": "Beauty & Spa",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "SEARCH_RESULT",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "102813",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": {
+                    "typeFilter": "BEAUTY_AND_SPA",
+                    "typeFilterList": null,
+                    "subTypeFilter": [
+                    ],
+                    "priceFilter": {
+                      "minPrice": "0",
+                      "maxPrice": "10000000"
+                    },
+                    "durationFilter": null,
+                    "instantVoucherOnly": null,
+                    "geoIdsFilter": null,
+                    "tagFilter": null,
+                    "availabilityFilter": null,
+                    "featureFilter": null,
+                    "menuGroupingFilter": null,
+                    "promoFilterList": null
+                  }
+                },
+                "countryNameEN": null,
+                "itemNameEN": null
+              },
+              "itemType": null
+            },
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868191395-c8105b0407cca25542e4763f41aa52f5.png",
+                "description": "Attractions",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "SEARCH_RESULT",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "102813",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": {
+                    "typeFilter": "ATTRACTION",
+                    "typeFilterList": null,
+                    "subTypeFilter": [
+                    ],
+                    "priceFilter": {
+                      "minPrice": "0",
+                      "maxPrice": "10000000"
+                    },
+                    "durationFilter": null,
+                    "instantVoucherOnly": null,
+                    "geoIdsFilter": null,
+                    "tagFilter": null,
+                    "availabilityFilter": null,
+                    "featureFilter": null,
+                    "menuGroupingFilter": null,
+                    "promoFilterList": null
+                  }
+                },
+                "countryNameEN": null,
+                "itemNameEN": null
+              },
+              "itemType": null
+            },
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868279024-7030b9d084b641872502d1c1e27831ba.png",
+                "description": "Events",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "SEARCH_RESULT",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "102813",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": {
+                    "typeFilter": "EVENT",
+                    "typeFilterList": null,
+                    "subTypeFilter": [
+                    ],
+                    "priceFilter": {
+                      "minPrice": "0",
+                      "maxPrice": "10000000"
+                    },
+                    "durationFilter": null,
+                    "instantVoucherOnly": null,
+                    "geoIdsFilter": null,
+                    "tagFilter": null,
+                    "availabilityFilter": null,
+                    "featureFilter": null,
+                    "menuGroupingFilter": null,
+                    "promoFilterList": null
+                  }
+                },
+                "countryNameEN": null,
+                "itemNameEN": null
+              },
+              "itemType": null
+            },
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868273547-8ea59ecbcef04113ea3fa22c04630ec6.png",
+                "description": "Tours",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "SEARCH_RESULT",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "102813",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": {
+                    "typeFilter": "DAY_TOUR",
+                    "typeFilterList": null,
+                    "subTypeFilter": [
+                    ],
+                    "priceFilter": {
+                      "minPrice": "0",
+                      "maxPrice": "10000000"
+                    },
+                    "durationFilter": null,
+                    "instantVoucherOnly": null,
+                    "geoIdsFilter": null,
+                    "tagFilter": null,
+                    "availabilityFilter": null,
+                    "featureFilter": null,
+                    "menuGroupingFilter": null,
+                    "promoFilterList": null
+                  }
+                },
+                "countryNameEN": null,
+                "itemNameEN": null
+              },
+              "itemType": null
+            },
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868335584-a3640c46347e7776d0b97d75b0aa3afa.png",
+                "description": "Entertainment",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "SEARCH_RESULT",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "102813",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": {
+                    "typeFilter": "ENTERTAINMENT",
+                    "typeFilterList": null,
+                    "subTypeFilter": [
+                    ],
+                    "priceFilter": {
+                      "minPrice": "0",
+                      "maxPrice": "10000000"
+                    },
+                    "durationFilter": null,
+                    "instantVoucherOnly": null,
+                    "geoIdsFilter": null,
+                    "tagFilter": null,
+                    "availabilityFilter": null,
+                    "featureFilter": null,
+                    "menuGroupingFilter": null,
+                    "promoFilterList": null
+                  }
+                },
+                "countryNameEN": null,
+                "itemNameEN": null
+              },
+              "itemType": null
+            },
+            {
+              "iconWithText": {
+                "iconUrl": "",
+                "description": "Sports",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "SEARCH_RESULT",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "102813",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": {
+                    "typeFilter": "SPORTS",
+                    "typeFilterList": null,
+                    "subTypeFilter": [
+                    ],
+                    "priceFilter": {
+                      "minPrice": "0",
+                      "maxPrice": "10000000"
+                    },
+                    "durationFilter": null,
+                    "instantVoucherOnly": null,
+                    "geoIdsFilter": null,
+                    "tagFilter": null,
+                    "availabilityFilter": null,
+                    "featureFilter": null,
+                    "menuGroupingFilter": null,
+                    "promoFilterList": null
+                  }
+                },
+                "countryNameEN": null,
+                "itemNameEN": null
+              },
+              "itemType": null
+            }
+          ]
+        },
+        "destinationGroup": null,
+        "trendingGroup": null
+      },
+      {
+        "type": "DESTINATION",
+        "categoryGroup": null,
+        "destinationGroup": {
+          "groupLabel": "Explore Popular Destinations",
+          "items": [
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1530001048863-2000x1210-FIT_AND_TRIM-c2a054312648531b24dbf54d1dc72cfa.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+                "description": "Hong Kong",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "DESTINATION_PAGE",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "10011651",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": null
+                },
+                "countryNameEN": "Indonesia",
+                "itemNameEN": "Hong Kong"
+              },
+              "itemType": "GEO_REGION"
+            },
+            {
+              "iconWithText": {
+                "iconUrl": "https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1506917344554-1200x600-FIT_AND_TRIM-2c2be77679906dc3d0f500f042060cca.jpeg?tr=q-40,c-at_max,w-740,h-500&_src=imagekit",
+                "description": "Malaysia",
+                "hexColorCode": "",
+                "detailText": null
+              },
+              "link": {
+                "type": "DESTINATION_PAGE",
+                "experienceId": null,
+                "searchSpec": {
+                  "searchType": "GEO",
+                  "entityId": "108416",
+                  "geoLocation": null,
+                  "searchQuery": null,
+                  "filter": null
+                },
+                "countryNameEN": "Indonesia",
+                "itemNameEN": "Malaysia"
+              },
+              "itemType": "GEO_COUNTRY"
+            }
+          ]
+        },
+        "trendingGroup": null
+      }
+    ]
+  },
+  "userContext": null,
+  "context": {
+    "tvLifetime": "ZQQI3KuS9VEC4Q8YrwD4mF8f/x26cw3LwSPmkzlcJz+9p6QJFboGg9o/VJnu0KZUzjtPFQ++GTw4NvoelQ82jq0pt5i4V/l+cmuhXTEqCStTWn7GnXQzivKWDaFh24+qO0xltLdMrFhtrNos1/RXuMt3Qe6Hr4xZ7LSR/A5tvYLvlyHfFnPptZUxAgMVwRNSCMYWUJplNNMY2P4/83O9X+8GNrPf8Ng75ZieUaJama8=",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=",
+    "nonce": ""
+  }
+}
+ 
+12:20:57.894 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/experience/apis/searchModal.feature
+12:23:27.653 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:23:27.658 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1655875407657
+12:23:28.949 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:23:29.487 [main] DEBUG com.intuit.karate - request:
+1 > POST https://xpepapi.xpe.staging-traveloka.com/en-id/v2/experience/searchV2
+1 > Origin: https://www-rc.web.tvlk.dev
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 955
+1 > Host: xpepapi.xpe.staging-traveloka.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 > Accept-Encoding: gzip,deflate
+{"clientInterface":"desktop","data":{"caller":"SEARCH_RESULT","currency":"IDR","sortType":"MOST_POPULAR","filters":{"filterSelected":false,"typeFilter":null,"priceFilter":{"minPrice":null,"maxPrice":null},"instantVoucherOnly":false,"subTypeFilter":[],"durationFilter":[]},"basicSearchSpec":{"searchType":"ALL_PRODUCTS","entityId":null,"searchQuery":"snowbay"},"rowsToReturn":50,"skip":0},"fields":[],"context":{"tvLifetime":"BL6QzgFU8OcVMipoEyq+BM+Tg\/Hk3azKGSOBWnB1aV4HUhJKz+1BoXpjQ8ko3dXyYPKvEwEP9rvkYs43qtg47nJfH0QYsPTDkK3hoMuN0XU0WqnHcJ0HGRvkXJ9i8MGkXyMrsrmRGM8Mh7BjP2nEzGuJlTPIoD9abqH+9elXCiSimeEgHbKEnh6iWvISVEigkFCHGmtgQIBYvXr\/N2qZSHDjN\/pkhAH2gwxqzA5sn7GiAFSBkESSumIKzae1rc17","tvSession":"qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY\/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd\/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C\/lixSwG1Nh0MWwhZ6mGKTEgkS\/Mj0AFxTzE=","nonce":""}}
+
+12:23:31.252 [main] DEBUG com.intuit.karate - response time in milliseconds: 1752
+1 < 200
+1 < Date: Wed, 22 Jun 2022 05:23:31 GMT
+1 < Content-Type: application/json;charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < RequestId: b0febb9d-a03a-439e-aa61-56d2d60c9b55
+1 < Cache-Control: no-cache
+1 < Access-Control-Allow-Origin: https://www-rc.web.tvlk.dev
+1 < Access-Control-Allow-Credentials: true
+1 < vary: accept-encoding
+1 < Set-Cookie: AWSALB=AUvdpbNdStEYcyvbc7W6Tk7HFpx/VTeMbWrv3N5fE96wgKimNvWTXe76VzqADXheuGMZWlFUNBsvmbNz3YcwFSJkN5abzqclurwgKZOZQSWG9pE9i5Gsxspr/1D6; Max-Age=1656480210000; Expires=Thu, 29 Mar 54514 21:03:31 GMT; Domain=xpepapi.xpe.staging-traveloka.com
+1 < Set-Cookie: AWSALBCORS=AUvdpbNdStEYcyvbc7W6Tk7HFpx/VTeMbWrv3N5fE96wgKimNvWTXe76VzqADXheuGMZWlFUNBsvmbNz3YcwFSJkN5abzqclurwgKZOZQSWG9pE9i5Gsxspr/1D6; Max-Age=1656480210000; Expires=Thu, 29 Mar 54514 21:03:31 GMT; Domain=xpepapi.xpe.staging-traveloka.com; Secure
+{"data":{"searchId":"48EPF3R8A","geoId":"0","geoName":"","landmarkName":"","countryName":"country","results":[{"experienceId":"5843955775665","experienceName":"SnowBay Waterpark Tickets - Easy Access EA","chainId":null,"availableDates":null,"score":null,"shortGeoName":"Pinang Ranti","distance":null,"imageUrl":"https://ik.imagekit.io/tvlkdev/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RCC4sEoPS5kmNZ3tqqqMfa62NFM+OTLa4W7voc9a2vZ-QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/5843955775665/SnowBay%2520Waterpark%2520Tickets%2520-%2520Easy%2520Access%2520EA-fed687b7-eb96-421a-9472-f04e211ffec3.jpeg?tr=q-60,c-at_max,w-540,h-960&_src=imagekit","basePrice":{"originalPrice":{"currencyValue":{"currency":"IDR","amount":"52000","nullOrEmpty":false},"numOfDecimalPoint":"0"},"discountedPrice":{"currencyValue":{"currency":"IDR","amount":"10000","nullOrEmpty":false},"numOfDecimalPoint":"0"},"discountPercentage":"80","discountPercentageLabel":"Save 80%"},"promoLabel":null,"instantVoucher":true,"totalReview":"0","experienceNameEn":"SnowBay Waterpark Tickets - Easy Access EA","loyaltyPoint":null,"landmark":null,"imageUrls":["https://ik.imagekit.io/tvlkdev/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RCC4sEoPS5kmNZ3tqqqMfa62NFM+OTLa4W7voc9a2vZ-QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/5843955775665/SnowBay%2520Waterpark%2520Tickets%2520-%2520Easy%2520Access%2520EA-fed687b7-eb96-421a-9472-f04e211ffec3.jpeg?tr=q-60,c-at_max,w-540,h-960&_src=imagekit"],"cityName":"Jakarta Timur","subTypes":null,"bookmarkId":null,"quickBookCardLabel":"Show Available Tickets","quickBookDetailLabel":"Select Tickets","experienceFeature":{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2020/02/07/1581051124912-05b7ae2e51a66737e854be3ebc938916.png","type":"EASY ACCESS","displayName":"Easy Access","textColor":null,"hidden":false},"experienceFeatures":[{"iconUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2020/02/07/1581051124912-05b7ae2e51a66737e854be3ebc938916.png","type":"EASY ACCESS","displayName":"Easy Access","textColor":null,"hidden":false}],"promoLabelList":null,"featuredIcon":null,"tags":[],"tickets":[]}],"filters":{"instantVoucherAvailable":false,"subTypes":[{"label":"Waterparks","id":"WATER_PARK","imageUrl":null,"subFilters":null}],"experienceTypes":[{"label":"Attractions","id":"ATTRACTION","imageUrl":"https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868191395-c8105b0407cca25542e4763f41aa52f5.png","subFilters":[{"label":"Waterparks","id":"WATER_PARK","imageUrl":null,"subFilters":null}]}],"promoFilters":[]},"information":"SEARCH_PLATFORM","isMore":false,"experienceSearchInfo":{"label":"","labelEN":"","subLabel":"","categoryLabel":"","imageUrl":null,"itemType":null,"tagLabel":null},"resultModelType":"V2","geoRegions":null,"subTypes":[],"discountLabelAb":"show","more":false},"userContext":null,"context":{"tvLifetime":"ZQQI3KuS9VEC4Q8YrwD4mF8f/x26cw3LwSPmkzlcJz95vbRoPldmphDH5+Mhuwx4wA5caeCbqbCU1Tg268bR+vJHxxL3taxPUZy0zDj3ASBTWn7GnXQzivKWDaFh24+qO0xltLdMrFhtrNos1/RXuMt3Qe6Hr4xZ7LSR/A5tvYLvlyHfFnPptZUxAgMVwRNSCMYWUJplNNMY2P4/83O9X+8GNrPf8Ng75ZieUaJama8=","tvSession":"qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=","nonce":""}}
+
+12:23:31.271 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "searchId": "48EPF3R8A",
+    "geoId": "0",
+    "geoName": "",
+    "landmarkName": "",
+    "countryName": "country",
+    "results": [
+      {
+        "experienceId": "5843955775665",
+        "experienceName": "SnowBay Waterpark Tickets - Easy Access EA",
+        "chainId": null,
+        "availableDates": null,
+        "score": null,
+        "shortGeoName": "Pinang Ranti",
+        "distance": null,
+        "imageUrl": "https://ik.imagekit.io/tvlkdev/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RCC4sEoPS5kmNZ3tqqqMfa62NFM+OTLa4W7voc9a2vZ-QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/5843955775665/SnowBay%2520Waterpark%2520Tickets%2520-%2520Easy%2520Access%2520EA-fed687b7-eb96-421a-9472-f04e211ffec3.jpeg?tr=q-60,c-at_max,w-540,h-960&_src=imagekit",
+        "basePrice": {
+          "originalPrice": {
+            "currencyValue": {
+              "currency": "IDR",
+              "amount": "52000",
+              "nullOrEmpty": false
+            },
+            "numOfDecimalPoint": "0"
+          },
+          "discountedPrice": {
+            "currencyValue": {
+              "currency": "IDR",
+              "amount": "10000",
+              "nullOrEmpty": false
+            },
+            "numOfDecimalPoint": "0"
+          },
+          "discountPercentage": "80",
+          "discountPercentageLabel": "Save 80%"
+        },
+        "promoLabel": null,
+        "instantVoucher": true,
+        "totalReview": "0",
+        "experienceNameEn": "SnowBay Waterpark Tickets - Easy Access EA",
+        "loyaltyPoint": null,
+        "landmark": null,
+        "imageUrls": [
+          "https://ik.imagekit.io/tvlkdev/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RCC4sEoPS5kmNZ3tqqqMfa62NFM+OTLa4W7voc9a2vZ-QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/5843955775665/SnowBay%2520Waterpark%2520Tickets%2520-%2520Easy%2520Access%2520EA-fed687b7-eb96-421a-9472-f04e211ffec3.jpeg?tr=q-60,c-at_max,w-540,h-960&_src=imagekit"
+        ],
+        "cityName": "Jakarta Timur",
+        "subTypes": null,
+        "bookmarkId": null,
+        "quickBookCardLabel": "Show Available Tickets",
+        "quickBookDetailLabel": "Select Tickets",
+        "experienceFeature": {
+          "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2020/02/07/1581051124912-05b7ae2e51a66737e854be3ebc938916.png",
+          "type": "EASY ACCESS",
+          "displayName": "Easy Access",
+          "textColor": null,
+          "hidden": false
+        },
+        "experienceFeatures": [
+          {
+            "iconUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2020/02/07/1581051124912-05b7ae2e51a66737e854be3ebc938916.png",
+            "type": "EASY ACCESS",
+            "displayName": "Easy Access",
+            "textColor": null,
+            "hidden": false
+          }
+        ],
+        "promoLabelList": null,
+        "featuredIcon": null,
+        "tags": [
+        ],
+        "tickets": [
+        ]
+      }
+    ],
+    "filters": {
+      "instantVoucherAvailable": false,
+      "subTypes": [
+        {
+          "label": "Waterparks",
+          "id": "WATER_PARK",
+          "imageUrl": null,
+          "subFilters": null
+        }
+      ],
+      "experienceTypes": [
+        {
+          "label": "Attractions",
+          "id": "ATTRACTION",
+          "imageUrl": "https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868191395-c8105b0407cca25542e4763f41aa52f5.png",
+          "subFilters": [
+            {
+              "label": "Waterparks",
+              "id": "WATER_PARK",
+              "imageUrl": null,
+              "subFilters": null
+            }
+          ]
+        }
+      ],
+      "promoFilters": [
+      ]
+    },
+    "information": "SEARCH_PLATFORM",
+    "isMore": false,
+    "experienceSearchInfo": {
+      "label": "",
+      "labelEN": "",
+      "subLabel": "",
+      "categoryLabel": "",
+      "imageUrl": null,
+      "itemType": null,
+      "tagLabel": null
+    },
+    "resultModelType": "V2",
+    "geoRegions": null,
+    "subTypes": [
+    ],
+    "discountLabelAb": "show",
+    "more": false
+  },
+  "userContext": null,
+  "context": {
+    "tvLifetime": "ZQQI3KuS9VEC4Q8YrwD4mF8f/x26cw3LwSPmkzlcJz95vbRoPldmphDH5+Mhuwx4wA5caeCbqbCU1Tg268bR+vJHxxL3taxPUZy0zDj3ASBTWn7GnXQzivKWDaFh24+qO0xltLdMrFhtrNos1/RXuMt3Qe6Hr4xZ7LSR/A5tvYLvlyHfFnPptZUxAgMVwRNSCMYWUJplNNMY2P4/83O9X+8GNrPf8Ng75ZieUaJama8=",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=",
+    "nonce": ""
+  }
+}
+ 
+12:23:31.291 [main] INFO  com.intuit.karate - [print] SnowBay Waterpark Tickets - Easy Access EA 
+12:23:33.895 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/experience/apis/searchResult.feature

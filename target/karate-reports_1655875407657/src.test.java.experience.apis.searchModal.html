@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("4fe12348-9d82-4762-bd34-6ffd6033f9bb",{name:"paulinamaygania"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.experience.apis.searchModal</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-22 12:20:55 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:7]"><span>[1:7]</span> <span></span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/experience/apis/searchModal.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Search Modal</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name"></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>31526</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url stagingXpeBeUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">12:20:24.294 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestBody = read(&#39;classpath:experience/requestTemplate/searchModalRequestTemplate.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">64</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/v2/experience/searchModal&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Origin = origin</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">31444</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">12:20:24.824 request:
+1 &gt; POST https://xpepapi.xpe.staging-traveloka.com/en-id/v2/experience/searchModal
+1 &gt; Origin: https://www-rc.web.tvlk.dev
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 944
+1 &gt; Host: xpepapi.xpe.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_322)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;desktop&quot;,&quot;data&quot;:{&quot;pageName&quot;:&quot;landing_page&quot;,&quot;trackingProperties&quot;:{&quot;visitId&quot;:&quot;c7f192a1-2a5c-4dac-9521-5e26cced1f27&quot;,&quot;eventSeq&quot;:573,&quot;eventKey&quot;:&quot;c7f192a1-2a5c-4dac-9521-5e26cced1f27.573&quot;,&quot;funnel_source&quot;:&quot;Merchandising.AA.product_detail-mweb-ID-LandingPage&quot;,&quot;funnel_id&quot;:&quot;S_0_b97b4c08a1598e2af334634320040db1b4ccb75a_0_c672458068bfe92ac0e9d1ef455953b8b96f944c&quot;}},&quot;fields&quot;:[],&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;BL6QzgFU8OcVMipoEyq+BM+Tg\/Hk3azKGSOBWnB1aV4HUhJKz+1BoXpjQ8ko3dXyYPKvEwEP9rvkYs43qtg47nJfH0QYsPTDkK3hoMuN0XU0WqnHcJ0HGRvkXJ9i8MGkXyMrsrmRGM8Mh7BjP2nEzGuJlTPIoD9abqH+9elXCiSimeEgHbKEnh6iWvISVEigkFCHGmtgQIBYvXr\/N2qZSHDjN\/pkhAH2gwxqzA5sn7GiAFSBkESSumIKzae1rc17&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY\/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd\/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C\/lixSwG1Nh0MWwhZ6mGKTEgkS\/Mj0AFxTzE=&quot;,&quot;nonce&quot;:&quot;&quot;}}
+
+12:20:55.895 response time in milliseconds: 31056
+1 &lt; 200
+1 &lt; Date: Wed, 22 Jun 2022 05:20:55 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: 3c1af6fe-52de-4b33-8acc-a922b9bc8060
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Origin: https://www-rc.web.tvlk.dev
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=gxWtFvxgSUyObPIj90C/QspYl0iKrlw7O9XFLGYhCB85INkl3eSl1cyQVKv5z/1wSRK8sBynLUnIZA7kDG71FUqUOUpOR0LqL/VTsL0iG1gMYLmTOoMHLKh2s8WG; Max-Age=1656480055000; Expires=Wed, 28 Mar 54514 01:57:35 GMT; Domain=xpepapi.xpe.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=gxWtFvxgSUyObPIj90C/QspYl0iKrlw7O9XFLGYhCB85INkl3eSl1cyQVKv5z/1wSRK8sBynLUnIZA7kDG71FUqUOUpOR0LqL/VTsL0iG1gMYLmTOoMHLKh2s8WG; Max-Age=1656480055000; Expires=Wed, 28 Mar 54514 01:57:35 GMT; Domain=xpepapi.xpe.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;searchId&quot;:&quot;68EPF03KC&quot;,&quot;groups&quot;:[{&quot;type&quot;:&quot;CATEGORY&quot;,&quot;categoryGroup&quot;:{&quot;groupLabel&quot;:&quot;Explore Categories&quot;,&quot;items&quot;:[{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868194484-14916f982420c96ae4ece559128baead.png&quot;,&quot;description&quot;:&quot;Beauty &amp; Spa&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;SEARCH_RESULT&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;102813&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:{&quot;typeFilter&quot;:&quot;BEAUTY_AND_SPA&quot;,&quot;typeFilterList&quot;:null,&quot;subTypeFilter&quot;:[],&quot;priceFilter&quot;:{&quot;minPrice&quot;:&quot;0&quot;,&quot;maxPrice&quot;:&quot;10000000&quot;},&quot;durationFilter&quot;:null,&quot;instantVoucherOnly&quot;:null,&quot;geoIdsFilter&quot;:null,&quot;tagFilter&quot;:null,&quot;availabilityFilter&quot;:null,&quot;featureFilter&quot;:null,&quot;menuGroupingFilter&quot;:null,&quot;promoFilterList&quot;:null}},&quot;countryNameEN&quot;:null,&quot;itemNameEN&quot;:null},&quot;itemType&quot;:null},{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868191395-c8105b0407cca25542e4763f41aa52f5.png&quot;,&quot;description&quot;:&quot;Attractions&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;SEARCH_RESULT&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;102813&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:{&quot;typeFilter&quot;:&quot;ATTRACTION&quot;,&quot;typeFilterList&quot;:null,&quot;subTypeFilter&quot;:[],&quot;priceFilter&quot;:{&quot;minPrice&quot;:&quot;0&quot;,&quot;maxPrice&quot;:&quot;10000000&quot;},&quot;durationFilter&quot;:null,&quot;instantVoucherOnly&quot;:null,&quot;geoIdsFilter&quot;:null,&quot;tagFilter&quot;:null,&quot;availabilityFilter&quot;:null,&quot;featureFilter&quot;:null,&quot;menuGroupingFilter&quot;:null,&quot;promoFilterList&quot;:null}},&quot;countryNameEN&quot;:null,&quot;itemNameEN&quot;:null},&quot;itemType&quot;:null},{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868279024-7030b9d084b641872502d1c1e27831ba.png&quot;,&quot;description&quot;:&quot;Events&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;SEARCH_RESULT&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;102813&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:{&quot;typeFilter&quot;:&quot;EVENT&quot;,&quot;typeFilterList&quot;:null,&quot;subTypeFilter&quot;:[],&quot;priceFilter&quot;:{&quot;minPrice&quot;:&quot;0&quot;,&quot;maxPrice&quot;:&quot;10000000&quot;},&quot;durationFilter&quot;:null,&quot;instantVoucherOnly&quot;:null,&quot;geoIdsFilter&quot;:null,&quot;tagFilter&quot;:null,&quot;availabilityFilter&quot;:null,&quot;featureFilter&quot;:null,&quot;menuGroupingFilter&quot;:null,&quot;promoFilterList&quot;:null}},&quot;countryNameEN&quot;:null,&quot;itemNameEN&quot;:null},&quot;itemType&quot;:null},{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868273547-8ea59ecbcef04113ea3fa22c04630ec6.png&quot;,&quot;description&quot;:&quot;Tours&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;SEARCH_RESULT&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;102813&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:{&quot;typeFilter&quot;:&quot;DAY_TOUR&quot;,&quot;typeFilterList&quot;:null,&quot;subTypeFilter&quot;:[],&quot;priceFilter&quot;:{&quot;minPrice&quot;:&quot;0&quot;,&quot;maxPrice&quot;:&quot;10000000&quot;},&quot;durationFilter&quot;:null,&quot;instantVoucherOnly&quot;:null,&quot;geoIdsFilter&quot;:null,&quot;tagFilter&quot;:null,&quot;availabilityFilter&quot;:null,&quot;featureFilter&quot;:null,&quot;menuGroupingFilter&quot;:null,&quot;promoFilterList&quot;:null}},&quot;countryNameEN&quot;:null,&quot;itemNameEN&quot;:null},&quot;itemType&quot;:null},{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868335584-a3640c46347e7776d0b97d75b0aa3afa.png&quot;,&quot;description&quot;:&quot;Entertainment&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;SEARCH_RESULT&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;102813&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:{&quot;typeFilter&quot;:&quot;ENTERTAINMENT&quot;,&quot;typeFilterList&quot;:null,&quot;subTypeFilter&quot;:[],&quot;priceFilter&quot;:{&quot;minPrice&quot;:&quot;0&quot;,&quot;maxPrice&quot;:&quot;10000000&quot;},&quot;durationFilter&quot;:null,&quot;instantVoucherOnly&quot;:null,&quot;geoIdsFilter&quot;:null,&quot;tagFilter&quot;:null,&quot;availabilityFilter&quot;:null,&quot;featureFilter&quot;:null,&quot;menuGroupingFilter&quot;:null,&quot;promoFilterList&quot;:null}},&quot;countryNameEN&quot;:null,&quot;itemNameEN&quot;:null},&quot;itemType&quot;:null},{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;&quot;,&quot;description&quot;:&quot;Sports&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;SEARCH_RESULT&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;102813&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:{&quot;typeFilter&quot;:&quot;SPORTS&quot;,&quot;typeFilterList&quot;:null,&quot;subTypeFilter&quot;:[],&quot;priceFilter&quot;:{&quot;minPrice&quot;:&quot;0&quot;,&quot;maxPrice&quot;:&quot;10000000&quot;},&quot;durationFilter&quot;:null,&quot;instantVoucherOnly&quot;:null,&quot;geoIdsFilter&quot;:null,&quot;tagFilter&quot;:null,&quot;availabilityFilter&quot;:null,&quot;featureFilter&quot;:null,&quot;menuGroupingFilter&quot;:null,&quot;promoFilterList&quot;:null}},&quot;countryNameEN&quot;:null,&quot;itemNameEN&quot;:null},&quot;itemType&quot;:null}]},&quot;destinationGroup&quot;:null,&quot;trendingGroup&quot;:null},{&quot;type&quot;:&quot;DESTINATION&quot;,&quot;categoryGroup&quot;:null,&quot;destinationGroup&quot;:{&quot;groupLabel&quot;:&quot;Explore Popular Destinations&quot;,&quot;items&quot;:[{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1530001048863-2000x1210-FIT_AND_TRIM-c2a054312648531b24dbf54d1dc72cfa.jpeg?tr=q-40,c-at_max,w-740,h-500&amp;_src=imagekit&quot;,&quot;description&quot;:&quot;Hong Kong&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;DESTINATION_PAGE&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;10011651&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:null},&quot;countryNameEN&quot;:&quot;Indonesia&quot;,&quot;itemNameEN&quot;:&quot;Hong Kong&quot;},&quot;itemType&quot;:&quot;GEO_REGION&quot;},{&quot;iconWithText&quot;:{&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1506917344554-1200x600-FIT_AND_TRIM-2c2be77679906dc3d0f500f042060cca.jpeg?tr=q-40,c-at_max,w-740,h-500&amp;_src=imagekit&quot;,&quot;description&quot;:&quot;Malaysia&quot;,&quot;hexColorCode&quot;:&quot;&quot;,&quot;detailText&quot;:null},&quot;link&quot;:{&quot;type&quot;:&quot;DESTINATION_PAGE&quot;,&quot;experienceId&quot;:null,&quot;searchSpec&quot;:{&quot;searchType&quot;:&quot;GEO&quot;,&quot;entityId&quot;:&quot;108416&quot;,&quot;geoLocation&quot;:null,&quot;searchQuery&quot;:null,&quot;filter&quot;:null},&quot;countryNameEN&quot;:&quot;Indonesia&quot;,&quot;itemNameEN&quot;:&quot;Malaysia&quot;},&quot;itemType&quot;:&quot;GEO_COUNTRY&quot;}]},&quot;trendingGroup&quot;:null}]},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;ZQQI3KuS9VEC4Q8YrwD4mF8f/x26cw3LwSPmkzlcJz+9p6QJFboGg9o/VJnu0KZUzjtPFQ++GTw4NvoelQ82jq0pt5i4V/l+cmuhXTEqCStTWn7GnXQzivKWDaFh24+qO0xltLdMrFhtrNos1/RXuMt3Qe6Hr4xZ7LSR/A5tvYLvlyHfFnPptZUxAgMVwRNSCMYWUJplNNMY2P4/83O9X+8GNrPf8Ng75ZieUaJama8=&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=&quot;,&quot;nonce&quot;:&quot;&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">12:20:55.917 [print] {
+  &quot;data&quot;: {
+    &quot;searchId&quot;: &quot;68EPF03KC&quot;,
+    &quot;groups&quot;: [
+      {
+        &quot;type&quot;: &quot;CATEGORY&quot;,
+        &quot;categoryGroup&quot;: {
+          &quot;groupLabel&quot;: &quot;Explore Categories&quot;,
+          &quot;items&quot;: [
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868194484-14916f982420c96ae4ece559128baead.png&quot;,
+                &quot;description&quot;: &quot;Beauty &amp; Spa&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;SEARCH_RESULT&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;102813&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: {
+                    &quot;typeFilter&quot;: &quot;BEAUTY_AND_SPA&quot;,
+                    &quot;typeFilterList&quot;: null,
+                    &quot;subTypeFilter&quot;: [
+                    ],
+                    &quot;priceFilter&quot;: {
+                      &quot;minPrice&quot;: &quot;0&quot;,
+                      &quot;maxPrice&quot;: &quot;10000000&quot;
+                    },
+                    &quot;durationFilter&quot;: null,
+                    &quot;instantVoucherOnly&quot;: null,
+                    &quot;geoIdsFilter&quot;: null,
+                    &quot;tagFilter&quot;: null,
+                    &quot;availabilityFilter&quot;: null,
+                    &quot;featureFilter&quot;: null,
+                    &quot;menuGroupingFilter&quot;: null,
+                    &quot;promoFilterList&quot;: null
+                  }
+                },
+                &quot;countryNameEN&quot;: null,
+                &quot;itemNameEN&quot;: null
+              },
+              &quot;itemType&quot;: null
+            },
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868191395-c8105b0407cca25542e4763f41aa52f5.png&quot;,
+                &quot;description&quot;: &quot;Attractions&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;SEARCH_RESULT&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;102813&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: {
+                    &quot;typeFilter&quot;: &quot;ATTRACTION&quot;,
+                    &quot;typeFilterList&quot;: null,
+                    &quot;subTypeFilter&quot;: [
+                    ],
+                    &quot;priceFilter&quot;: {
+                      &quot;minPrice&quot;: &quot;0&quot;,
+                      &quot;maxPrice&quot;: &quot;10000000&quot;
+                    },
+                    &quot;durationFilter&quot;: null,
+                    &quot;instantVoucherOnly&quot;: null,
+                    &quot;geoIdsFilter&quot;: null,
+                    &quot;tagFilter&quot;: null,
+                    &quot;availabilityFilter&quot;: null,
+                    &quot;featureFilter&quot;: null,
+                    &quot;menuGroupingFilter&quot;: null,
+                    &quot;promoFilterList&quot;: null
+                  }
+                },
+                &quot;countryNameEN&quot;: null,
+                &quot;itemNameEN&quot;: null
+              },
+              &quot;itemType&quot;: null
+            },
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868279024-7030b9d084b641872502d1c1e27831ba.png&quot;,
+                &quot;description&quot;: &quot;Events&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;SEARCH_RESULT&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;102813&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: {
+                    &quot;typeFilter&quot;: &quot;EVENT&quot;,
+                    &quot;typeFilterList&quot;: null,
+                    &quot;subTypeFilter&quot;: [
+                    ],
+                    &quot;priceFilter&quot;: {
+                      &quot;minPrice&quot;: &quot;0&quot;,
+                      &quot;maxPrice&quot;: &quot;10000000&quot;
+                    },
+                    &quot;durationFilter&quot;: null,
+                    &quot;instantVoucherOnly&quot;: null,
+                    &quot;geoIdsFilter&quot;: null,
+                    &quot;tagFilter&quot;: null,
+                    &quot;availabilityFilter&quot;: null,
+                    &quot;featureFilter&quot;: null,
+                    &quot;menuGroupingFilter&quot;: null,
+                    &quot;promoFilterList&quot;: null
+                  }
+                },
+                &quot;countryNameEN&quot;: null,
+                &quot;itemNameEN&quot;: null
+              },
+              &quot;itemType&quot;: null
+            },
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868273547-8ea59ecbcef04113ea3fa22c04630ec6.png&quot;,
+                &quot;description&quot;: &quot;Tours&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;SEARCH_RESULT&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;102813&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: {
+                    &quot;typeFilter&quot;: &quot;DAY_TOUR&quot;,
+                    &quot;typeFilterList&quot;: null,
+                    &quot;subTypeFilter&quot;: [
+                    ],
+                    &quot;priceFilter&quot;: {
+                      &quot;minPrice&quot;: &quot;0&quot;,
+                      &quot;maxPrice&quot;: &quot;10000000&quot;
+                    },
+                    &quot;durationFilter&quot;: null,
+                    &quot;instantVoucherOnly&quot;: null,
+                    &quot;geoIdsFilter&quot;: null,
+                    &quot;tagFilter&quot;: null,
+                    &quot;availabilityFilter&quot;: null,
+                    &quot;featureFilter&quot;: null,
+                    &quot;menuGroupingFilter&quot;: null,
+                    &quot;promoFilterList&quot;: null
+                  }
+                },
+                &quot;countryNameEN&quot;: null,
+                &quot;itemNameEN&quot;: null
+              },
+              &quot;itemType&quot;: null
+            },
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/07/23/1563868335584-a3640c46347e7776d0b97d75b0aa3afa.png&quot;,
+                &quot;description&quot;: &quot;Entertainment&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;SEARCH_RESULT&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;102813&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: {
+                    &quot;typeFilter&quot;: &quot;ENTERTAINMENT&quot;,
+                    &quot;typeFilterList&quot;: null,
+                    &quot;subTypeFilter&quot;: [
+                    ],
+                    &quot;priceFilter&quot;: {
+                      &quot;minPrice&quot;: &quot;0&quot;,
+                      &quot;maxPrice&quot;: &quot;10000000&quot;
+                    },
+                    &quot;durationFilter&quot;: null,
+                    &quot;instantVoucherOnly&quot;: null,
+                    &quot;geoIdsFilter&quot;: null,
+                    &quot;tagFilter&quot;: null,
+                    &quot;availabilityFilter&quot;: null,
+                    &quot;featureFilter&quot;: null,
+                    &quot;menuGroupingFilter&quot;: null,
+                    &quot;promoFilterList&quot;: null
+                  }
+                },
+                &quot;countryNameEN&quot;: null,
+                &quot;itemNameEN&quot;: null
+              },
+              &quot;itemType&quot;: null
+            },
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;&quot;,
+                &quot;description&quot;: &quot;Sports&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;SEARCH_RESULT&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;102813&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: {
+                    &quot;typeFilter&quot;: &quot;SPORTS&quot;,
+                    &quot;typeFilterList&quot;: null,
+                    &quot;subTypeFilter&quot;: [
+                    ],
+                    &quot;priceFilter&quot;: {
+                      &quot;minPrice&quot;: &quot;0&quot;,
+                      &quot;maxPrice&quot;: &quot;10000000&quot;
+                    },
+                    &quot;durationFilter&quot;: null,
+                    &quot;instantVoucherOnly&quot;: null,
+                    &quot;geoIdsFilter&quot;: null,
+                    &quot;tagFilter&quot;: null,
+                    &quot;availabilityFilter&quot;: null,
+                    &quot;featureFilter&quot;: null,
+                    &quot;menuGroupingFilter&quot;: null,
+                    &quot;promoFilterList&quot;: null
+                  }
+                },
+                &quot;countryNameEN&quot;: null,
+                &quot;itemNameEN&quot;: null
+              },
+              &quot;itemType&quot;: null
+            }
+          ]
+        },
+        &quot;destinationGroup&quot;: null,
+        &quot;trendingGroup&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;DESTINATION&quot;,
+        &quot;categoryGroup&quot;: null,
+        &quot;destinationGroup&quot;: {
+          &quot;groupLabel&quot;: &quot;Explore Popular Destinations&quot;,
+          &quot;items&quot;: [
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1530001048863-2000x1210-FIT_AND_TRIM-c2a054312648531b24dbf54d1dc72cfa.jpeg?tr=q-40,c-at_max,w-740,h-500&amp;_src=imagekit&quot;,
+                &quot;description&quot;: &quot;Hong Kong&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;DESTINATION_PAGE&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;10011651&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: null
+                },
+                &quot;countryNameEN&quot;: &quot;Indonesia&quot;,
+                &quot;itemNameEN&quot;: &quot;Hong Kong&quot;
+              },
+              &quot;itemType&quot;: &quot;GEO_REGION&quot;
+            },
+            {
+              &quot;iconWithText&quot;: {
+                &quot;iconUrl&quot;: &quot;https://ik.imagekit.io/tvlkdev/loc-asset/gNr3hLh55ZCkPJisyxFK-ogasCBWWC+rFHuYNtngNP5Zj5dkw0OmH1o4f6RIHjxxs9o2HLZ9vs7gy3rpcIU+oKi5EygzQLRjTUv7fRblEVA=/images/1506917344554-1200x600-FIT_AND_TRIM-2c2be77679906dc3d0f500f042060cca.jpeg?tr=q-40,c-at_max,w-740,h-500&amp;_src=imagekit&quot;,
+                &quot;description&quot;: &quot;Malaysia&quot;,
+                &quot;hexColorCode&quot;: &quot;&quot;,
+                &quot;detailText&quot;: null
+              },
+              &quot;link&quot;: {
+                &quot;type&quot;: &quot;DESTINATION_PAGE&quot;,
+                &quot;experienceId&quot;: null,
+                &quot;searchSpec&quot;: {
+                  &quot;searchType&quot;: &quot;GEO&quot;,
+                  &quot;entityId&quot;: &quot;108416&quot;,
+                  &quot;geoLocation&quot;: null,
+                  &quot;searchQuery&quot;: null,
+                  &quot;filter&quot;: null
+                },
+                &quot;countryNameEN&quot;: &quot;Indonesia&quot;,
+                &quot;itemNameEN&quot;: &quot;Malaysia&quot;
+              },
+              &quot;itemType&quot;: &quot;GEO_COUNTRY&quot;
+            }
+          ]
+        },
+        &quot;trendingGroup&quot;: null
+      }
+    ]
+  },
+  &quot;userContext&quot;: null,
+  &quot;context&quot;: {
+    &quot;tvLifetime&quot;: &quot;ZQQI3KuS9VEC4Q8YrwD4mF8f/x26cw3LwSPmkzlcJz+9p6QJFboGg9o/VJnu0KZUzjtPFQ++GTw4NvoelQ82jq0pt5i4V/l+cmuhXTEqCStTWn7GnXQzivKWDaFh24+qO0xltLdMrFhtrNos1/RXuMt3Qe6Hr4xZ7LSR/A5tvYLvlyHfFnPptZUxAgMVwRNSCMYWUJplNNMY2P4/83O9X+8GNrPf8Ng75ZieUaJama8=&quot;,
+    &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=&quot;,
+    &quot;nonce&quot;: &quot;&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

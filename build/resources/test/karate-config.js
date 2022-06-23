@@ -6,12 +6,12 @@ function fn() {
   }
   var config = {
     env: env,
-    myVarName: 'someValue',
-    stagingXpeBeUrl: 'https://xpepapi.xpe.staging-traveloka.com/en-id',
+    baseXpeUrl: 'https://xpepapi.xpe.staging-traveloka.com/en-id',
     stagingXpeUrl: 'https://www-rc.web.tvlk.dev/api',
     prodXpeUrl:  'https://api.xpe.traveloka.com',
     stagingUrl: 'https://api-shared-stg.test.tvlk.cloud',
-    origin: 'https://www-rc.web.tvlk.dev'
+    origin: 'https://www-rc.web.tvlk.dev',
+    baseXpePath: '/v2/experience/'
   }
   if (env == 'dev') {
     // customize

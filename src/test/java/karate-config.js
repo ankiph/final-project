@@ -6,7 +6,6 @@ function fn() {
   }
   var config = {
     env: env,
-    myVarName: 'someValue',
     baseXpeUrl: 'https://xpepapi.xpe.staging-traveloka.com/en-id',
     stagingXpeUrl: 'https://www-rc.web.tvlk.dev/api',
     prodXpeUrl:  'https://api.xpe.traveloka.com',

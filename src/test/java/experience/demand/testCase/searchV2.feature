@@ -1,4 +1,4 @@
-Feature: Search Result Page
+Feature: [POST] - Search V2
 
   Background:
     * url baseXpeUrl
@@ -8,7 +8,7 @@ Feature: Search Result Page
     Given path baseXpePath, endPoint
     And header Origin = origin
     And header Content-Type = 'application/json'
-    * def requestBody = read('classpath:experience/requestTemplate/searchResultRequestTemplate.json')
+    * def requestBody = read('classpath:experience/demand/requestTemplate/searchV2.json')
     
     * print requestBody
     And request requestBody
@@ -22,7 +22,7 @@ Feature: Search Result Page
     Given path baseXpePath, endPoint
     And header Origin = origin
     And header Content-Type = 'application/json'
-    * def requestBody = read('classpath:experience/requestTemplate/searchResultRequestTemplate.json')
+    * def requestBody = read('classpath:experience/demand/requestTemplate/searchV2.json')
     * set requestBody
       | path                                 |  value                  |
       | data.currency                        |  'IDR'                  |

@@ -1,0 +1,26 @@
+{
+  "clientInterface": "desktop",
+  "data": {
+    "currency": "IDR",
+    "basicSearchSpec": {
+      "searchType": "ALL_PRODUCTS",
+      "entityId": null,
+      "filter": null,
+      "searchQuery": null,
+      "geoLocation": null
+    },
+    "trackingProperties": {
+      "visitId": "33e0a611-cb13-48b3-b9e5-c187455a147f",
+      "eventSeq": 79,
+      "eventKey": "33e0a611-cb13-48b3-b9e5-c187455a147f.79",
+      "funnel_source": "Merchandising.AA.ID-201905-Attractions-Category-mweb-ID-DLP",
+      "funnel_id": "M_4_27d53f8fb38c51ea6314189f1bf52122a252b71d_0_e0a4f04539eb3e3cef9df3b0058f752f4dd4d24b"
+    }
+  },
+  "fields": [],
+  "context": {
+    "tvLifetime": "BL6QzgFU8OcVMipoEyq+BM+Tg/Hk3azKGSOBWnB1aV4HUhJKz+1BoXpjQ8ko3dXyYPKvEwEP9rvkYs43qtg47nJfH0QYsPTDkK3hoMuN0XU0WqnHcJ0HGRvkXJ9i8MGkXyMrsrmRGM8Mh7BjP2nEzGuJlTPIoD9abqH+9elXCiSimeEgHbKEnh6iWvISVEigkFCHGmtgQIBYvXr/N2qZSHDjN/pkhAH2gwxqzA5sn7GiAFSBkESSumIKzae1rc17",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=",
+    "nonce": ""
+  }
+}

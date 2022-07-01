@@ -1,0 +1,148 @@
+{
+  "clientInterface": "desktop",
+  "data": {
+    "addOnProductSpecs": [],
+    "bookingContact": {
+      "formData": {
+        "travelerForm": {
+          "title": "MR",
+          "name.full": "Test Name",
+          "name.regexName": "DEFAULT",
+          "phoneNumber": {
+            "countryCode": "+62",
+            "phoneNumber": "81233122232"
+          },
+          "emailAddress": "test@gmail.com"
+        }
+      }
+    },
+    "createBookingTravelerSpecs": {
+      "adultFormData": [
+        {
+          "travelerForm": {
+            "title": "MR",
+            "name.full": "Test Name",
+            "name.regexName": "DEFAULT",
+            "phoneNumber": {
+              "countryCode": "+62",
+              "phoneNumber": "81233122232"
+            },
+            "emailAddress": "test@gmail.com"
+          }
+        }
+      ],
+      "childFormData": [],
+      "infantFormData": []
+    },
+    "createBookingProductSpecificAddOns": [],
+    "createBookingSimpleAddOns": [],
+    "createBookingCrossSellAddOns": [],
+    "selectedPrice": {
+      "selectedPrice": {
+        "currency": "IDR",
+        "amount": "116400",
+        "nullOrEmpty": false
+      }
+    },
+    "selectedProductSpec": {
+      "productType": "EXPERIENCE",
+      "experienceBookingPageSpec": {
+        "searchId": "EXPERIENCE",
+        "experienceId": "4383888901583",
+        "providerId": "pot",
+        "ticketId": "438388890158300562",
+        "experienceBookingTicketEntranceType": [
+          {
+            "identifier": "ADULT",
+            "number": "1",
+            "totalPrice": {
+              "currencyValue": {
+                "currency": "IDR",
+                "amount": "116400",
+                "nullOrEmpty": false
+              },
+              "numOfDecimalPoint": "0"
+            },
+            "easyReservationResourcePreferences": null
+          },
+          {
+            "identifier": "CHILD",
+            "number": "0",
+            "totalPrice": {
+              "currencyValue": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              },
+              "numOfDecimalPoint": "0"
+            },
+            "easyReservationResourcePreferences": null
+          },
+          {
+            "identifier": "SENIOR",
+            "number": "0",
+            "totalPrice": {
+              "currencyValue": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              },
+              "numOfDecimalPoint": "0"
+            },
+            "easyReservationResourcePreferences": null
+          }
+        ],
+        "selectedDate": {
+          "month": "7",
+          "day": "30",
+          "year": "2022"
+        },
+        "selectedTimeSlot": {
+          "timeSlotId": "all_day_pass",
+          "label": "All-day Pass"
+        },
+        "eventSpec": null,
+        "trackingProperties": {
+          "funnelSource": null,
+          "funnelId": null,
+          "funnel_source": null,
+          "funnel_id": null,
+          "previousPage": null,
+          "previousPageId": null,
+          "utm_source": null,
+          "utm_medium": null,
+          "utm_campaign": null,
+          "utm_term": null,
+          "utm_content": null,
+          "visitId": "35ed712c-bb7f-4384-bfbf-945cda349b45",
+          "eventSeq": "137",
+          "eventKey": "35ed712c-bb7f-4384-bfbf-945cda349b45.137"
+        },
+        "productCategory": "ATTRACTION",
+        "itemKey": null,
+        "shoppingCartSpecs": null
+      }
+    },
+    "promptItemContext": null,
+    "currency": "IDR",
+    "trackingSpec": {
+      "searchId": "EXPERIENCE",
+      "preBookingId": "9d924744-ae50-45f8-ad47-4452fc442a7a",
+      "bookingFormId": "087f8dd0-3ccc-4320-8fd3-d0e4be9af513",
+      "contexts": {
+        "std_selectId": "087f8dd0-3ccc-4320-8fd3-d0e4be9af513",
+        "std_preSelectId": "9d924744-ae50-45f8-ad47-4452fc442a7a"
+      },
+      "marketingContexts": {
+        "ga_id": "GA1.2.1136550644.1646968379",
+        "fbp": "fb.1.1646968686932.1559392701"
+      }
+    }
+  },
+  "fields": [],
+  "context": {
+    "tvLifetime": "BL6QzgFU8OcVMipoEyq+BM+Tg/Hk3azKGSOBWnB1aV4HUhJKz+1BoXpjQ8ko3dXyYPKvEwEP9rvkYs43qtg47nJfH0QYsPTDkK3hoMuN0XU0WqnHcJ0HGRvkXJ9i8MGkXyMrsrmRGM8Mh7BjP2nEzGuJlTPIoD9abqH+9elXCiSimeEgHbKEnh6iWvISVEigkFCHGmtgQIBYvXr/N2qZSHDjN/pkhAH2gwxqzA5sn7GiAFSBkESSumIKzae1rc17",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=",
+    "nonce": ""
+  }
+}

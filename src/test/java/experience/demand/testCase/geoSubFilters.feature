@@ -2,7 +2,7 @@ Feature: [POST] - geoSubFilters
 
   Background:
     * url baseXpeUrl
-    * def endPoint = 'geoSubFilters
+    * def endPoint = 'geoSubFilters'
 
   Scenario: Destination list should be returned when call geoSubFilters with search query
     Given path baseXpePath, endPoint

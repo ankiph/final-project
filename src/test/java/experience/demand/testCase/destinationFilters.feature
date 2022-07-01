@@ -4,7 +4,7 @@ Feature: [POST] - destinationFilters
     * url baseXpeUrl
     * def endPoint = 'destinationFilters'
 
-  Scenario User current location should be returned when calling destinationFilters (user location turned on)
+  Scenario: User current location should be returned when calling destinationFilters (user location turned on)
     Given path baseXpePath, endPoint
     And header Origin = origin
     And header Content-Type = 'application/json'

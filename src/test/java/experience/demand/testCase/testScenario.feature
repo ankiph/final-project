@@ -1,4 +1,4 @@
-@ignore
+#@ignore
 Feature: Onboard new supplier, product, and item
 
 
@@ -18,7 +18,7 @@ Feature: Onboard new supplier, product, and item
 
 #===== Get Ticket ID from Ticket List ================================
 
-    * def getNewTicketID = callonce read('classpath:experience/demand/testCase/ticketList.feature') { experienceId: '#(newExperienceID)' }
+    * def getNewTicketID = callonce read('classpath:experience/demand/testCase/ticketList.feature') { config_experienceId: '#(newExperienceID)' }
     * def ticketData = getNewTicketID.response.data
 #    * def ticketDataAppended = appendTicketData (ticketData)
 #    * print ticketDataAppended
@@ -26,7 +26,7 @@ Feature: Onboard new supplier, product, and item
     * print "New Ticket ID:" + newTicketID
 
 #  #===== Get Booking Form ID from Booking Page ================================
-#
+#5316711385835  9654844083283
 #    * def getBookingData = callonce read('classpath:experience/demand/testCase/bookingPage.feature') ticketDataAppended
 #    * def bookingFormId = getBookingData.response.trackingSpec.bookingFormId
 #    * print "Booking Form ID:" + bookingFormId

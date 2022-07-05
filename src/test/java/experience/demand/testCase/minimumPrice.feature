@@ -14,11 +14,11 @@ Feature: [POST] - Minimum Price
     And header Content-Type = contentType
     * set requestBody
       | path                    | value                 |
-      | data.experienceId       | '9654844083283'       |
+      | data.experienceId       | config_experienceId   |
       | data.date.month         |  7                    |
       | data.date.day           |  10                   |
       | data.date.year          |  2022                 |
-      | data.experienceTicketId | '662047329380800641'  |
+      | data.experienceTicketId | config_ticketId       |
 
     * print requestBody
     And request requestBody

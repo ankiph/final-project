@@ -48,3 +48,20 @@ Feature: [POST] - searchV2
     When method POST
     Then status 200
      * print response
+
+  @chain @ignore @e2e
+  Scenario: get Product results in chain page
+    Given path baseXpePath, endPoint
+    And header Origin = origin
+    And header Content-Type = 'application/json'
+    * def requestBody = read('classpath:experience/demand/requestTemplate/chainSearchV2.json')
+    * set requestBody
+      | path                                 |  value                  |
+      | data.basicSearchSpec.searchType      |  'PRODUCT_CHAIN'        |
+      | data.basicSearchSpec.entityId        |  config_chainEntityId   |
+
+    * print requestBody
+    And request requestBody
+    When method POST
+    Then status 200
+    * print response

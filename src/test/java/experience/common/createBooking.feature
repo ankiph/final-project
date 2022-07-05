@@ -9,6 +9,10 @@ Feature: [POST] - createBooking
     And header Origin = origin
     And header Content-Type = 'application/json'
     * def requestBody = read('classpath:experience/common/createBooking.json')
+    * set requestBody
+    | path                                                            | value               |
+    | data.selectedProductSpec.experienceBookingPageSpec.experienceId | config_experienceId |
+    | data.selectedProductSpec.experienceBookingPageSpec.ticketId     | config_ticketId     |
 
     * print requestBody
     And request requestBody

@@ -13,10 +13,10 @@ Feature: [POST] - Booking Page
     And header Content-Type = contentType
     * set requestBody
       | path                                                                           | value                      |
-      | data.selectedProductSpec.experienceBookingPageSpec.experienceId                | '9654844083283'            |
-      | data.selectedProductSpec.experienceBookingPageSpec.ticketId                    | '662047329380800245'       |
+      | data.selectedProductSpec.experienceBookingPageSpec.experienceId                | config_experienceId        |
+      | data.selectedProductSpec.experienceBookingPageSpec.ticketId                    | config_ticketId            |
       | data.selectedProductSpec.experienceBookingPageSpec.selectedDate.month          | 8                          |
-      | data.selectedProductSpec.experienceBookingPageSpec.selectedDate.day            | 17                         |
+      | data.selectedProductSpec.experienceBookingPageSpec.selectedDate.day            | 4                          |
       | data.selectedProductSpec.experienceBookingPageSpec.selectedDate.year           | 2022                       |
       | data.selectedProductSpec.experienceBookingPageSpec.selectedTimeSlot.timeSlotId | 'all_day_pass'             |
       | data.trackingSpec.chainId                                                      | '6566996'                  |

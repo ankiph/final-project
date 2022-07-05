@@ -40,7 +40,7 @@
     "selectedPrice": {
       "selectedPrice": {
         "currency": "IDR",
-        "amount": "116400",
+        "amount": "150000",
         "nullOrEmpty": false
       }
     },
@@ -48,9 +48,9 @@
       "productType": "EXPERIENCE",
       "experienceBookingPageSpec": {
         "searchId": "EXPERIENCE",
-        "experienceId": "4383888901583",
+        "experienceId": "5316711385835",
         "providerId": "pot",
-        "ticketId": "438388890158300562",
+        "ticketId": "426535965851300861",
         "experienceBookingTicketEntranceType": [
           {
             "identifier": "ADULT",
@@ -58,34 +58,8 @@
             "totalPrice": {
               "currencyValue": {
                 "currency": "IDR",
-                "amount": "116400",
+                "amount": "150000",
                 "nullOrEmpty": false
-              },
-              "numOfDecimalPoint": "0"
-            },
-            "easyReservationResourcePreferences": null
-          },
-          {
-            "identifier": "CHILD",
-            "number": "0",
-            "totalPrice": {
-              "currencyValue": {
-                "currency": "IDR",
-                "amount": "0",
-                "nullOrEmpty": true
-              },
-              "numOfDecimalPoint": "0"
-            },
-            "easyReservationResourcePreferences": null
-          },
-          {
-            "identifier": "SENIOR",
-            "number": "0",
-            "totalPrice": {
-              "currencyValue": {
-                "currency": "IDR",
-                "amount": "0",
-                "nullOrEmpty": true
               },
               "numOfDecimalPoint": "0"
             },
@@ -93,8 +67,8 @@
           }
         ],
         "selectedDate": {
-          "month": "7",
-          "day": "30",
+          "month": "8",
+          "day": "4",
           "year": "2022"
         },
         "selectedTimeSlot": {
@@ -114,11 +88,11 @@
           "utm_campaign": null,
           "utm_term": null,
           "utm_content": null,
-          "visitId": "35ed712c-bb7f-4384-bfbf-945cda349b45",
-          "eventSeq": "137",
-          "eventKey": "35ed712c-bb7f-4384-bfbf-945cda349b45.137"
+          "visitId": "f83174f6-ae21-4c12-b88f-d477f6e5de8e",
+          "eventSeq": "182",
+          "eventKey": "f83174f6-ae21-4c12-b88f-d477f6e5de8e.182"
         },
-        "productCategory": "ATTRACTION",
+        "productCategory": "BEAUTY_AND_SPA",
         "itemKey": null,
         "shoppingCartSpecs": null
       }
@@ -127,11 +101,11 @@
     "currency": "IDR",
     "trackingSpec": {
       "searchId": "EXPERIENCE",
-      "preBookingId": "9d924744-ae50-45f8-ad47-4452fc442a7a",
-      "bookingFormId": "087f8dd0-3ccc-4320-8fd3-d0e4be9af513",
+      "preBookingId": "4ad51177-aed3-44b2-b0c7-9aed43db68f7",
+      "bookingFormId": "0b0dff7b-c78c-44ef-9b2f-371436c212d2",
       "contexts": {
-        "std_selectId": "087f8dd0-3ccc-4320-8fd3-d0e4be9af513",
-        "std_preSelectId": "9d924744-ae50-45f8-ad47-4452fc442a7a"
+        "std_selectId": "0b0dff7b-c78c-44ef-9b2f-371436c212d2",
+        "std_preSelectId": "4ad51177-aed3-44b2-b0c7-9aed43db68f7"
       },
       "marketingContexts": {
         "ga_id": "GA1.2.1136550644.1646968379",

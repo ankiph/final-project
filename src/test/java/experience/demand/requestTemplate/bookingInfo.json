@@ -1,0 +1,14 @@
+{
+  "clientInterface": "desktop",
+  "data": {
+    "auth": "",
+    "bookingId": "",
+    "invoiceId": ""
+  },
+  "fields": [],
+  "context": {
+    "tvLifetime": "BL6QzgFU8OcVMipoEyq+BM+Tg/Hk3azKGSOBWnB1aV4HUhJKz+1BoXpjQ8ko3dXyYPKvEwEP9rvkYs43qtg47nJfH0QYsPTDkK3hoMuN0XU0WqnHcJ0HGRvkXJ9i8MGkXyMrsrmRGM8Mh7BjP2nEzGuJlTPIoD9abqH+9elXCiSimeEgHbKEnh6iWvISVEigkFCHGmtgQIBYvXr/N2qZSHDjN/pkhAH2gwxqzA5sn7GiAFSBkESSumIKzae1rc17",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0rXbHOqNJ07ZWDlDIk9GpvhQxYY/nrUrPCWooYIlrqu3k5Nlr736AHqanZOlgk1z5zz0mSrbzguia32J8WhnApg5aZ5AvP0Ht7SUSkd/x2F9A7HkACfLUEmhSPKjPWZqK3WCYY2U633LWTmfNLeUh5QcLyHb3C/lixSwG1Nh0MWwhZ6mGKTEgkS/Mj0AFxTzE=",
+    "nonce": ""
+  }
+}

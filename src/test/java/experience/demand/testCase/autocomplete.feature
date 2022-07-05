@@ -13,7 +13,7 @@ Feature: [POST] - Autocomplete
     And header Content-Type = contentType
     * set requestBody
       | path                                 |  value                  |
-      | data.query                           |  'beauty and spa'       |
+      | data.query                           |  'hendro'               |
 
     * print requestBody
     And request requestBody

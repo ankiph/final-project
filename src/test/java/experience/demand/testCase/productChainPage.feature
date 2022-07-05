@@ -14,7 +14,7 @@ Feature: [POST] - Product Chain Page
       And header Content-Type = contentType
       * set requestBody
       | path          | value     |
-      | data.chainId  | '6566996' |
+      | data.chainId  | config_chainId |
       * print requestBody
       And request requestBody
       When method POST

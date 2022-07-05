@@ -5,7 +5,6 @@ Feature: [POST] - Ticket List
     * def endPoint = 'ticketList'
     * def requestBody = read('classpath:experience/demand/requestTemplate/ticketList.json')
     * def contentType = 'application/json'
-#    * def experienceId = '5316711385835'
 
   Scenario: Get the list of available ticket from experience ID
     # Ticket data should be returned when call ticketList with experience ID
@@ -15,7 +14,9 @@ Feature: [POST] - Ticket List
     And header Content-Type = contentType
     * set requestBody
       | path                    | value                  |
-      | data.experienceId       | config_experienceId        |
+      | data.experienceId       | config_experienceId    |
+
+
     * print requestBody
     And request requestBody
     When method POST

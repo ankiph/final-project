@@ -15,6 +15,7 @@ Feature: [POST] - detail
     Then status 200
     * print response
 
+  @e2e @ignore
   Scenario: Experience product details should be returned when call detail with currency
     Given path baseXpePath, endPoint
     And header Origin = origin
@@ -22,7 +23,7 @@ Feature: [POST] - detail
     * def requestBody = read('classpath:experience/demand/requestTemplate/detail.json')
     * set requestBody
       | path                                 |  value                  |
-      | data.experienceId                    |  '5892288859455'        |
+      | data.experienceId                    |  config_experienceId    |
       | data.currency                        |  'SGD'                  |
 
     * print requestBody

@@ -1,8 +1,5 @@
+@e2e
 Feature: E2E API Testing
-
-
-#  Background:
-#    * def appendTicketData = read('classpath:experience/demand/appendTicketData.js')
 
   Scenario: Booking Item from chain page
 

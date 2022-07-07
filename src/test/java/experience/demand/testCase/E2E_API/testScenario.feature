@@ -1,7 +1,7 @@
 @e2e
 Feature: E2E API Testing
 
-  Scenario: Booking Item from chain page
+  Scenario: Booking Item from autocomplete
 
 #===== Get Chain ID from Autocomplete ================================
     * def getNewChainID = callonce read('classpath:experience/demand/testCase/autocomplete.feature')

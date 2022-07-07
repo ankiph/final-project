@@ -20,7 +20,6 @@ function fn() {
     config_chainId: '6566996',
     config_chainEntityId: '6566996',
     config_ticketId: '426535965851300861'
-//    config_auth: (karate.callSingle('classpath:src/test/java/experience/common/createBooking.feature')).booking_auth
   }
   if (env == 'dev') {
     // customize

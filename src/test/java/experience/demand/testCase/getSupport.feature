@@ -1,3 +1,4 @@
+@GetSupport
 Feature: [POST] - Get Support
 
   Background:

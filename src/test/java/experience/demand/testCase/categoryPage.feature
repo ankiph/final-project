@@ -1,3 +1,4 @@
+@CategoryPage
 Feature: [POST] - Category Page
 
   Background:

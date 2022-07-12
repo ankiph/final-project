@@ -1,3 +1,4 @@
+@Ticket
 Feature: [POST] - Ticket Allotment Info
 
   Background:

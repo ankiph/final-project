@@ -1,3 +1,4 @@
+@Autocomplete
 Feature: [POST] - Destination Autocomplete
 
   Background:

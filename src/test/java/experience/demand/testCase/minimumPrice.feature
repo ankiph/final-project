@@ -1,3 +1,4 @@
+@Ticket
 Feature: [POST] - Minimum Price
 
   Background:

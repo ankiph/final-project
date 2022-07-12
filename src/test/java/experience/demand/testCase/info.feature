@@ -1,3 +1,4 @@
+@Search
 Feature: [POST] - info
 
   Background:

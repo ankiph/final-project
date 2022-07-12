@@ -1,3 +1,4 @@
+@Autocomplete
 Feature: [POST] - Location Picker Modal V2
 
   Background:

@@ -1,3 +1,4 @@
+@ProductChain
 Feature: [POST] - Product Chain Page
 
   Background:

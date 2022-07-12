@@ -1,3 +1,4 @@
+@Autocomplete
 Feature: [POST] - Autocomplete
 
   Background:

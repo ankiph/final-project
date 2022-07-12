@@ -1,3 +1,4 @@
+@BookingPage
 Feature: [POST] - Booking Page
 
   Background:

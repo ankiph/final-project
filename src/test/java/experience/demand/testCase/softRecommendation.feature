@@ -1,3 +1,4 @@
+@Search
 Feature: [POST] - softRecommendation
 
   Background:

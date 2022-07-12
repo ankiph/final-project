@@ -1,3 +1,4 @@
+@Destination
 Feature: [POST] - destinationFilters
 
   Background:

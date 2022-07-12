@@ -4,7 +4,7 @@ Feature: [POST] - createBooking
     * url baseTrpUrl
     * def endPoint = '/booking/createBooking'
 
-  Scenario:
+  Scenario: Get Auth, Booking ID, and Invoice ID
     Given path baseTrpPath, endPoint
     And header Origin = origin
     And header Content-Type = 'application/json'

@@ -1,3 +1,4 @@
+@Coupon
 Feature: [POST] - couponList
 
   Background:

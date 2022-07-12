@@ -1,3 +1,4 @@
+@SearchResult
 Feature: [POST] - Quick Book Tray
 
   Background:

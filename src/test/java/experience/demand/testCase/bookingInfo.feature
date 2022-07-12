@@ -1,3 +1,4 @@
+@BookingInfo
 Feature: [POST] - bookingInfo
 
   Background:

@@ -1,3 +1,4 @@
+@Ticket
 Feature: [POST] - Ticket List
 
   Background:

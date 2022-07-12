@@ -1,3 +1,4 @@
+@Detail
 Feature: [POST] - reviews
 
   Background:

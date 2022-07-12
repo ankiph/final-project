@@ -1,3 +1,4 @@
+@GeoDestination
 Feature: [POST] - destinationPageV2
 
   Background:
